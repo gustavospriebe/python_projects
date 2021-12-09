@@ -1,6 +1,7 @@
 lista = []
 
 # This program receive user inputs and transform them into a phrase. Int isn't accepted.
+print('This program receive user inputs and transform them into senteces.')
 
 def phrase(x): # Capitalizes the first letter of the sentence.
     capitalize = str(x).capitalize()
