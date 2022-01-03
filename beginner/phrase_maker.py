@@ -5,7 +5,7 @@ print('This program receive user inputs and transform them into senteces.')
 
 def phrase(x): # Capitalizes the first letter of the sentence.
     capitalize = str(x).capitalize()
-    if x.startswith(('how', 'what', 'why', 'who')):
+    if x.startswith(('how', 'what', 'why', 'who', 'where', 'whom')):
         return f'{capitalize}?'
     else:
         return f'{capitalize}.'
